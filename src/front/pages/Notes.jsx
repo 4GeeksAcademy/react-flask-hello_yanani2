@@ -166,7 +166,7 @@ export const Notes = () => {
     <div className="container mt-4">
       <h2>Mis Notas</h2>
 
-      {/* Mostrar errores */}
+     
       {error && (
         <div className="alert alert-danger" role="alert">
           {error}
